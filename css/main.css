@@ -1,19 +1,15 @@
-*{
-	box-sizing: border-box;
-	margin:0px;
-	padding: 0px;
+.padre {
+	padding: 40px 20px 70px 100px;
+	border: 20px solid #9900FF;
+ 	border-right: #9900FF 10px solid;
+ 	border-left: #9900FF 10px solid;
+ 	background-color: #F9CB9C;
+ 	margin: 120px 60px 30.5px 60px;
 }
-div {
-	padding: 40px 20px 70px 100px ;
-	border-top: #9900FF 20px solid;
- 	border-right: #9900FF 5px solid;
- 	border-bottom: #9900FF 20px solid;
- 	border-left: #9900FF 5px solid;
- 	background: #F9CB9C;
-}
-p{
-	border: #548230 1px dashed;
-	background: white;
-	padding: 10px;
+.hijo{
+	border: #548230 2px dashed;
+	background-color: white;
 	text-align: center;
+	height: 50px;
+	line-height: 50px;
 }
